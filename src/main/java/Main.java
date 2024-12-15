@@ -136,5 +136,57 @@ public class Main {
                 System.out.println("Błędny znak lub wartość");
         }*/
 
+        /*Punkt p1 = new Punkt();
+        int poleXObiektuP1 = p1.pobierzX();
+        int poleYObiektuP1 = p1.pobierzY();
+
+        System.out.println(poleXObiektuP1);
+        System.out.println(poleYObiektuP1);
+
+
+        Punkt p2 = new Punkt();
+
+
+    *//*p1.wyswietlWspolrzedne();
+    p2.wyswietlWspolrzedne();*//*
+
+
+        p1.ustawX(5);
+        System.out.println(p1.pobierzX());
+        p1.ustawY(18);
+        System.out.println(p1.pobierzY());
+*/
+        /*Car notAudi = new Car();
+        notAudi.setIlosc_drzwi(5);
+        System.out.println(notAudi.getIlosc_drzwi());
+
+        notAudi.setModel("notA4");
+        System.out.println(notAudi.getModel());
+
+        notAudi.setRok_produkcji(2020);
+        System.out.println(notAudi.getRok_produkcji());
+
+        notAudi.setV_max(300);
+        System.out.println(notAudi.getV_max());
+
+        notAudi.rusz();
+        notAudi.zatrzymajSie();*/
+
+        Punkt.metodaStatyczna();
+        System.out.println(Punkt.poleStatyczne);
+
+
+        Punkt3D punkt3D = new Punkt3D();
+        punkt3D.z = 2;
+        punkt3D.x = 3;
+        punkt3D.y = 5;
+        System.out.println(punkt3D.z);
+        System.out.println(punkt3D.x);
+        System.out.println(punkt3D.y);
+
+
+      OverridenMethods om1 = new OverridenMethods();
+
+        System.out.println(om1.dodawaj(3, 7, 7, 8));
     }
 }
